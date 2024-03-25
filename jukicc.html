@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Test</title>
+  <style>
+body {
+  background-color: #CC1814;
+  overflow: hidden;
+}
+
+#compContainer {
+  -moz-transition: 3s;
+  -o-transition: 3s;
+  -webkit-transition: 3s;
+  transition: 3s;
+  position: absolute;
+  margin: auto;
+  top: 35%;
+  right: 0;
+  bottom: 35%;
+  left: 0;
+  width: 15%;
+  height: 30%;
+}
+
+::-webkit-input-placeholder {
+  font-size: 1.5rem;
+  color: red;
+}
+
+:-moz-placeholder {
+  /* Firefox 18- */
+  font-size: 1.5rem;
+  color: red;
+}
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+  font-size: 1.5rem;
+  color: red;
+}
+
+:-ms-input-placeholder {
+  font-size: 1.5rem;
+  color: red;
+}
+
+/*********************
+    Text Area divs
+*********************/
+#txt {
+  width: 100%;
+  height: 100%;
+  background: black;
+  font-size: .55rem;
+  color: #00ff00;
+  box-sizing: border-box;
+  font-family: 'Quicksand', sans-serif;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  display: inline-block;
+  padding: 5%;
+  -moz-transition: 3s;
+  -o-transition: 3s;
+  -webkit-transition: 3s;
+  transition: 3s;
+}
+
+/*********************
+    CSS Drawings
+*********************/
+#comp {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -moz-transition: 3s;
+  -o-transition: 3s;
+  -webkit-transition: 3s;
+  transition: 3s;
+  height: 50%;
+  width: 100%;
+  color: #00ff00;
+  font-family: monospace;
+  border: 3px solid #00ff00;
+}
+
+#standBar {
+  position: relative;
+  width: 5%;
+  height: 15%;
+  margin-left: 47.5%;
+  background: #00ff00;
+}
+
+#standBase {
+  position: relative;
+  width: 80%;
+  height: 2.5%;
+  margin: 0 0 0 10%;
+  background: #00ff00;
+}
+
+#keyboard {
+  content: "";
+  display: block;
+  position: absolute;
+  margin-top: 14%;
+  width: 82%;
+  height: 2.5%;
+  background: #00ff00;
+}
+
+#mouse {
+  content: "";
+  display: block;
+  position: absolute;
+  margin: 14% 0 0 92%;
+  height: 2.5%;
+  width: 8%;
+  background: #00ff00;
+}
+  </style>
+</head>
+<body>
+
+<div id="compContainer">
+  <input type="button" value="otključaj" id="btn">
+  <div id="comp">
+    <textarea id="txt" placeholder="">ACCESS</textarea>
+  </div>
+  <div id="standBar"></div>
+  <div id="standBase"></div>
+  <div id="keyboard"></div>
+  <div id="mouse"></div>
+</div>
+
+  <script>
+
+
+//ispisati točkicu po točkicu (tri točkice)
+//nakon 4000ms prikazati poruku "ACCESS GRANTED"
+
+//zatim animaciju
+/*
+	compContainer.style.height = '100%';
+	compContainer.style.width = '100%';
+	comp.style.boxSizing = 'initial';
+	comp.style.height = '100%';
+	comp.style.width = '100%';
+	comp.style.border = 'solid 20px #00ff00';
+	comp.style.marginLeft = '-20px';
+	comp.style.marginTop = '-20px';
+	comp.style.width = '100%';
+	comp.style.height = '100%';
+	txt.style.fontSize = '1.55rem';
+
+*/
+// nadopisuj poruku ACCES DENIED 
+// kad se klikne na botun traži unos lozinke
+//ako je lozinka admin, ispisi datum i zasutavi nadopisivanje poruke
+
+
+
+
+
+/*
+svako 1000ms neka se nadodaju točkice
+nakon 4000ms neka se zaustave točkice i ispiše poruka ACCESS GRANTED
+
+nakon 9000ms neka krene ispisivanje riječi ACCES DENIED ACCES DENIED ACCES DENIED 
+
+na klik botuna provjeri je li lozinka admin , zaustavi ispisivanje, i stavi zeleni backgroud
+*/
+</script>
+</body>
+</html>
