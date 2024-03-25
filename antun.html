@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #div{
+            background-color: green;
+            height: 150px;
+            width: 150px;
+        }
+
+        #txt{
+            color: green;
+            background-color: grey;
+        }
+    </style>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+    <input type="button" value="prvi" id="povecaj">
+    <input type="button" value="drugi" id="smanji">
+    <div id="div"></div>
+
+    <div id="txt">
+        <p>Lorem ipsum dolor sit amet.</p>
+    </div>
+
+    <script>
+        $(document).ready(function(){
+            $('#povecaj').dblclick(function(){
+                $('#div').css("height","1200px")
+            });
+        })
+
+        $(document).ready(function(){
+            $('#smanji').dblclick(function(){
+                $('#div').css("height","150px")
+            });
+        })
+
+
+        $("div").on("mouseover",function(){
+            $(this).css({
+                "backgroundc-color":"yellow"
+            });
+        })
+        .on("mouseleave",function(){
+            var style={backgroundcolor:"#ddd",};
+            $(this).css(styles);
+        })
+    </script>
+</body>
+</html>
