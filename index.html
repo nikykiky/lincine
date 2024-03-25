@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>raspored kino predstava</title>
+    <style>
+        table{width: 1000px; 
+            border-collapse: collapse
+            ;
+        }
+
+        th, td {
+            border: 1px solid white;
+            padding: 10px;}
+
+      thead tr{background-color: black; }
+      thead{ color: white;}
+      tbody th{ background-color: green; color: white; width: 300px;}
+      td{ background-color: grey; color: rgb(254, 96, 96); width: 175px; }
+
+    </style>
+</head>
+<body>
+    <h1>raspored kino predstava</h1>
+
+    <table>
+    
+        <thead>
+            <tr>
+                <th>sati/dani</th>
+                <th>ponedjeljak</th>
+                <th>utorak</th>
+                <th>srijeda</th>
+                <th>cetvrtak</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">17.30</th>
+                <td>zamjena</td>
+                <td colspan="2">pas</td>
+                <td rowspan="2">pas</td>
+            </tr>
+
+            <tr>
+                <th scope="row">20.00</th>
+                <td colspan="2">bolt</td>
+                <td rowspan="2">zamjena</td>
+            </tr>
+
+            <tr>
+                <th scope="row">22.00</th>
+                <td>pas</td>
+                <td>bolt</td>
+                <td>zamjena</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
