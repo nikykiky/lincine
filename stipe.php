@@ -6,13 +6,13 @@
      
 
    
-        a {
+        abeceda {
             display: inline-block;
             margin-right:10px;
       
             padding: 5px 5px;
             background-color: #007bff;
-            color: #fff;
+            color: #ffffff;
             text-decoration: none;
             border-radius: 5px;
             font-size: 14px;
