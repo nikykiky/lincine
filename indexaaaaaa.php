@@ -6,7 +6,7 @@
 <link rel=stylesheet href="stil.css" type="text/css" />
 </head>
 
-<body bgcolor="#FFFFFF" text="#000000">
+<body bgcolor="#FFFFFF" text="#000000" class="bzvz">
 
 <div class="kontejner">
 <div class="baner"></div>
