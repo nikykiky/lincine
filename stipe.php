@@ -6,7 +6,7 @@
      
 
    
-        stipe {
+        abeceda {
             display: inline-block;
             margin-right:10px;
       
