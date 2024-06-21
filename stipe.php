@@ -6,16 +6,16 @@
      
 
    
-        a {
+        stipe {
             display: inline-block;
             margin-right:10px;
       
             padding: 5px 5px;
             background-color: #007bff;
-            color: #fff;
+            color: #000;
             text-decoration: none;
             border-radius: 5px;
-            font-size: 14px;
+            font-size: 200px;
             transition: background-color 0.3s ease;
         }
 
